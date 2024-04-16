@@ -1,0 +1,224 @@
+body{
+    background-image: url(catering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color:#CAA928;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(catering1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(catering2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(catering3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.select h2{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    font-weight: bolder;
+    color:#CAA928;
+}
+.occasion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #CAA928;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rbga(0,0,0,0.1);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:  0.8s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+.bd :hover, .bd :focus, .bd :active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.anniversary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rbga(0,0,0,0.1);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:  0.8s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+.anniversary :hover, .anniversary :focus, .anniversary :active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rbga(0,0,0,0.1);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:  0.8s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+.ring :hover, .ring :focus, .ring :active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.wedding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rbga(0,0,0,0.1);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:  0.8s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+.wedding :hover, .wedding :focus, .wedding :active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+footer{
+    background-color: gray;
+}
+.footercontainer{
+    background-color: gray;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.icon a :hover{
+    background-color: grey;
+    transition: 0.8s;
+}
+.icon a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+.nav{
+    margin: 30px 0;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+nav ul li a :hover{
+    opacity: 1;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+
+     

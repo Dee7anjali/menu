@@ -1,0 +1,53 @@
+body{
+    background-image: url(pexels-photo-4551619.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one{
+    width: 200px;
+    color: burlywood;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 700;
+}
+h1{
+    color: yellow;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.breakfast{
+    color: midnightblue;
+    font-size: larger;
+    font-weight: 700;
+}
+.breakfast h3{
+    color: rgb(4, 44, 57);
+    font-weight: bolder;
+}
+.lunch{
+    color: rgb(5, 60, 86);
+    font-size: larger;
+    font-weight: 700;
+}
+.lunch h3{
+    color: rgb(167, 223, 241);
+    font-weight: bolder;
+}
+.dinner{
+    color: wheat;
+    font-size: larger;
+    font-weight: 700;
+}
+.dinner h3{
+    color: rgb(167, 223, 241);
+    font-weight: bolder;
+}
